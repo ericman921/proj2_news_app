@@ -3,7 +3,7 @@ import axios from 'axios';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import './App.css';
 
-const NEWS_API = 'http://newsapi.org/v2/top-headlines?country=us&apiKey=b35512f2248e4519b8c58c213d8ee15d';
+const NEWS_API = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=b35512f2248e4519b8c58c213d8ee15d';
 const NEXT_WEB = 'https://newsapi.org/v2/everything?domains=thenextweb.com&apiKey=b35512f2248e4519b8c58c213d8ee15d';
 const TECHCRUNCH_NEWS ='https://newsapi.org/v2/everything?domains=techcrunch.com&language=en&apiKey=b35512f2248e4519b8c58c213d8ee15d';
 
