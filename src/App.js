@@ -31,7 +31,7 @@ export default class App extends React.Component {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
                 <Link to="/thenextweb">The Next Web</Link>
@@ -57,7 +57,7 @@ export default class App extends React.Component {
             <Route path='/techcrunch'>
               <TechCrunch />
             </Route>
-            <Route path="/">
+            <Route path="/home">
               <Home />
             </Route>
 
