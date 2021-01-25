@@ -272,7 +272,7 @@ class Search extends React.Component {
   async handleSubmit(event) {
     event.preventDefault();
       try {
-        const res = await axios.get(`https://newsapi.org/v2/everything?q=${event.target.value}&apiKey=b35512f2248e4519b8c58c213d8ee15d`);
+        const res = await axios.get(`https://newsapi.org/v2/everything?q=${this.state.value}&apiKey=b35512f2248e4519b8c58c213d8ee15d`);
         this.setState({ news: res.data.articles });
         console.log(this.state.news);
       } catch(e) {
